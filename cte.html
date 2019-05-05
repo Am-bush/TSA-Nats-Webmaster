@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https:////code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <script>
+        $(function(){
+          $(".dropdown").hover(
+                  function() {
+                      $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+                      $(this).toggleClass('open');
+                      $('b', this).toggleClass("caret caret-up");
+                  },
+                  function() {
+                      $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+                      $(this).toggleClass('open');
+                      $('b', this).toggleClass("caret caret-up");
+                  });
+          });
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark" style="position: fixed; width: 100%; z-index: 999;">
+            <a href="index.html" class="navbar-brand">Inglemoor TSA</a>
+            <button class="navbar-toggler" data-target="#navigation" data-control="navigation" data-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navigation">
+                <ul class="nav navbar-nav">
+
+                    <li class="nav-item dropdown">
+                        <a href="index.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Chapter <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="nav-item">
+                                <a href="index.html#headerbackground" style="padding: 4px;">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="index.html#projects" style="padding: 4px;">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="index.html#competitions" style="padding: 4px;">Competitions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="index.html#officers" style="padding: 4px;">Officers</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Inglemoor and CTE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="designbrief.html" class="nav-link">Design Brief</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div id="headerbackground" class="jumbotron">
+        <div class="container">
+            <h1 class="retroshd">Inglemoor High School</h1>
+            <p>One of Inglemoor's greatest strengths is developing students to be well-versed in the field of technology.</p>
+            <a href="index.html" class="nav-link"><button type="button" class="btn btn-outline-light">Home</button></a>
+            <a href="designbrief.html" class="nav-link"><button type="button" class="btn btn-outline-light">Design Brief</button></a>
+            <a href="about.html" class="nav-link"><button type="button" class="btn btn-outline-light">About</button></a>
+            <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Our Chapter</a></p>-->
+        </div>
+    </div>
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row" id="row">
+            <div class="col-md-6">
+                <h2>Inglemoor High School</h2>
+                <p>Inglemoor High School is a highly successful IB school located in the beautiful Pacific Northwest. Our school is known for academic and competitive success within clubs and organizations like TSA, as well as the creation of award winning
+                    projects from CTE courses like IB Design Tech.
+                    <p>
+            </div>
+            <div class="col-md-6">
+                <h2>CTE Courses</h2>
+                <p>Inglemoor High School has a variety of school courses that can be taken by all students at Inglemoor. There are courses ranging from programming classes to design classes to engineering classes, all at varying degrees of difficulty level to remain accessible to all students.</p>
+            </div>
+            <!--<div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div> -->
+        </div>
+
+
+        <div class="container section">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>
+                        IB Computer Science With Java SL
+                    </h3>
+                    <p>
+                        This course will establish a fundamental base knowledge of Java. Students will learn about objects, classes, Java class libraries, and much more. Additional topics will be studied, such as software development and user interface design. The class culminates with an internal assessment that takes place over the course of the second semester, in which students must find a client to develop software for, gaining experience about all parts of the development process.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80" alt="" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1542744173-b3cd6377db95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" />
+                </div>
+                <div class="col-md-6">
+                    <h3>
+                        Web Design
+                    </h3>
+                    <p>
+                        In this course, students will learn the process of designing and developing web pages. Students will become familiar and proficient with HTML, CSS, and Photoshop in order to hone their web design skills.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>
+                        IB Design and Technology SL/HL
+                    </h3>
+                    <p>
+                        These two courses focus on designing projects based around human factors, sustainability, materials, and teach skills within CAD and prototyping. Students will have the opportunity to work on many projects, and will develop portfolios showcasing their work.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1502043150060-b01aa3030556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://images.pexels.com/photos/34520/confused-muddled-illogical-disoriented.jpg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" />
+                </div>
+                <div class="col-md-6">
+                    <h3>
+                        Introduction to Engineering Design
+                    </h3>
+                    <p>
+                        This hands-on course will explore the process that goes into building new things. Students will study manufacturing, CAD, structures, and many other topics that will develop new skills, as well as developing existing skills in order to apply them to the
+                        many projects that are completed in this course.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id = "ctedisplay">
+        <h2 style="text-align: center;">CTE at Inglemoor:</h2>
+        <div class="container-fluid" style="margin-top: 20px;">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="bg bg-left">
+                        <h2 style="text-align: center;">Clubs</h2>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="bg bg-right">
+                        <h2 style="text-align: center;">Classes</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="container" style="margin-top: 40px; margin-bottom: 20px;">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="bg bg-left">
+                        <h2 style="text-align: center;">Competitions</h2>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="bg bg-right">
+                        <h2 style="text-align: center;">Resources</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 style = "text-align: center;">Academics at Inglemoor</h1>
+        <h4>IB Program:</h4>
+        <p>Inglemoor has a high graudation rate and many students choose to pursue the full IB diploma. The Diploma Programme (DP) curriculum is made up of six subject groups and the DP core, comprising theory of knowledge (TOK), creativity, activity, service
+            (CAS) and the extended essay. Through the Diploma Programme (DP) core, students reflect on the nature of knowledge, complete independent research and undertake a project that often involves community service.</p>
+
+        <h4>AP Program:</h4>
+        <p>Many students also choose to do the AP program. "Advanced Placement is a program in the United States and Canada created by the College Board which offers college-level curricula and examinations to high school students. American colleges and
+            universities may grant placement and course credit to students who obtain high scores on the examinations. The AP curriculum for each of the various subjects is created for the College Board by a panel of experts and college-level educators
+            in that field of study."</p>
+
+
+        <section class="our-webcoderskull">
+            <div class="container">
+                <div class="row heading heading-icon">
+                    <h1 style = "text-align: center; margin-bottom: 20px;">CTE Teachers</h1>
+                </div>
+                <p>Mr. Wierusz teaches Intro to Engineering and Design, as well as IB Design and Technology HL/SL. He transferred to teaching after working as a mechanical engineer for 8 years, and holds a BS in Mechanical Engineering from the University
+                    of Washington.</p>
+                <p>Mr. Donnelly teaches a variety of Computer Science courses and has helped many students learn the art of coding. He also helps Inglemoor students compete in Hunt the Wumpus, a yearly competition at Microsoft.</p>
+                <p>Mr. Gilmore teaches multiple business and marketing courses, and began teaching at IHS in 1997, but has been teaching since 1977. He holds a Bachelor's Degree in English, a Masters Degree in Education, and is an award-winning CTE teacher.</p>
+                <ul class="row">
+                    <li class="col-12 col-md-6 col-lg-4">
+                        <div class="cnt-block equal-hight" style="height: 230px;">
+                             <i class="fas fa-chalkboard-teacher" aria-hidden="false" style = "font-size: 6rem;"></i>
+                            <h3>Mike Wierusz</h3>
+                            <p>Design Tech Teacher and IHS TSA Advisor</p>
+                        </div>
+                    </li>
+                    <li class="col-12 col-md-6 col-lg-4">
+                        <div class="cnt-block equal-hight" style="height: 230px;">
+                             <i class="fas fa-chalkboard-teacher" aria-hidden="false" style = "font-size: 6rem;"></i>
+                            <h3>Thomas Donnelly</h3>
+                            <p>Computer Science Teacher</p>
+                        </div>
+                    </li>
+                    <li class="col-12 col-md-6 col-lg-4">
+                        <div class="cnt-block equal-hight" style="height: 230px;">
+                             <i class="fas fa-chalkboard-teacher" aria-hidden="false" style = "font-size: 6rem;"></i>
+                            <h3>Geoffrey Gilmore</h3>
+                            <p>Business and Tech Teacher</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <hr>
+            <p>© 2019 Inglemoor TSA Webmaster</p>
+            <p>Created from scratch using Bootstrap</p>
+        </footer>
+
+    </div>
+    <!-- /container -->
+
+</body>
+
+</html>
