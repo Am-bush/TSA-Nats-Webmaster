@@ -158,7 +158,7 @@ header { padding-bottom: 30px; }
          background: contain;
          filter: opacity(opacity: 10%);
          width: 100%; /* make sure to define width to fill container */
-         height: 60vh; /* define the height in pixels or make sure   */
+         height: 75vh; /* define the height in pixels or make sure   */
                         /* you have something in your div with height */
                         /* so you can see your image */
          max-width:2500px;  /* define the max width */
