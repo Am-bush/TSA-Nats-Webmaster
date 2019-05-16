@@ -167,7 +167,7 @@ header { padding-bottom: 30px; }
            background-size: cover;
         }
 
-        @media (min-width: 800px) {
+        @media (max-width: 800px) {
             #platformdisplay {
                display: none;
                width: 0;

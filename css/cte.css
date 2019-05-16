@@ -162,7 +162,7 @@ header { padding-bottom: 30px; }
             #ctedisplay {
                display: none;
                width: 0;
-                 height: 0;
+               height: 0;
             }
         }
 
