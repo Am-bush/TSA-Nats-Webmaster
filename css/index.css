@@ -271,13 +271,6 @@
       }
   }
 
-  html, body {
-  background: #347fc3;
-  width: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-
 
   .navbar-expand-lg .navbar-nav.side-nav{flex-direction: column;}
   .card{margin-bottom: 15px; border-radius:0; box-shadow: 0 3px 5px rgba(0,0,0,.1); }
