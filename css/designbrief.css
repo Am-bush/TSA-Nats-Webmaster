@@ -167,9 +167,11 @@ header { padding-bottom: 30px; }
            background-size: cover;
         }
 
-        @media only screen and (min-width: 800px) {
+        @media (min-width: 800px) {
             #platformdisplay {
                display: none;
+               width: 0;
+               height: 0;
             }
         }
 
